@@ -23,8 +23,9 @@ more_movies = [
   {:title => 'Terminator', :rating => 'R',
    :release_date => '26-Oct-1986'},
   {:title => 'Terminator 2', :rating => 'R',
-   :release_date => '26-Nov-1990'}
-
+   :release_date => '26-Nov-1990'},
+  {:title => 'Terminator 3', :rating => 'R',
+   :release_date => '6-Jan-2005'}
 ]
 
 more_movies.each do |movie|

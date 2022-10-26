@@ -1,3 +1,3 @@
-release:heroku run rake db:seed
-release:heroku run rake db:migrate
+release:bundle exec rake db:migrate
+release:bundle exec rake db:seed
 web: bundle exec rails server -p $PORT
